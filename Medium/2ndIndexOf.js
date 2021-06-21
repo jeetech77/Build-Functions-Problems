@@ -10,5 +10,6 @@ function getIndexOfItem(array,item) {
     return indexOfItem;
 }
 
-console.log("Index of the first array item is : ", getIndexOfItem(arrayFirst,34));
+console.log("Index of the item is : ", getIndexOfItem([23,35,24,24,34],34));
+console.log("Index of the first array item is : ", getIndexOfItem(arrayFirst,56));
 console.log("Index of the second array item is : ", getIndexOfItem(arraySecond,3));
