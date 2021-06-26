@@ -1,5 +1,5 @@
 let str = "V`hshmf enq kdudk nmd."
-function shiftString(str, num) {
+function encodeString(str, num) {
     let newStr = '';
     for (let index = 0; index < str.length; index++) {
         let temp = str.charCodeAt(index);
@@ -14,5 +14,5 @@ function shiftString(str, num) {
     }
     return newStr;
 }
-let shiftedStr = shiftString(str,1);
+let shiftedStr = encodeString(str,1);
 console.log(shiftedStr);
